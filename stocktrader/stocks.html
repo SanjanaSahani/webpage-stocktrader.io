@@ -1,0 +1,62 @@
+<style>
+	body{
+		background-color: rgb(187, 232, 248);
+	}
+	.frame{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 3%;
+	}
+	.headingtext{
+	font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+	}
+</style>
+<title>Stocks</title>
+<body>
+	<div class="headingtext">
+		<h1>Stocks Of Companies</h1>
+	</div>
+	<div class="frame">
+		<iframe style="border: none; width:840px; height: 470px;" data-widget-name="" name="ChartWidget"
+			src="https://darqube.com/external-embedding/chart-widget?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3aWRnZXQiOnsidGlja2VycyI6eyJTVE9DS1MiOlsiVFNMQS5VUyIsIkFBUEwuVVMiXSwiQ1JZUFRPIjpbIkJUQ1VTRC5BR1IiXX0sInNlbGxfYnV5X3VybCI6bnVsbH0sIndfdHlwZSI6IkNoYXJ0V2lkZ2V0IiwiZmVfY2ZnIjp7ImNoY2xyIjoicmdiYSg2MSwgMTg3LCAxNTQsIDEpIiwiY21vZGUiOjAsImZjbHIiOiJyZ2JhKDI1NSwgMjU1LCAyNTUsIDEpIiwiYmciOiJyZ2JhKDIxLCAyNSwgMzAsIDEpIiwiaCI6NDcwLCJ3Ijo4NDAsImFzeiI6ZmFsc2UsImZ0IjoiZGVmYXVsdCIsImh0Ijoibm9uZSIsInRyaCI6W10sImNoYyI6InJnYmEoMjM3LCA1MCwgOTgsIDEpIiwiYmUiOnRydWUsImJjIjoicmdiYSgyNTUsMjU1LDI1NSwwLjEpIiwiYnciOjEsImNuIjoiIiwibG5nIjoiZW4iLCJoZGljbiI6ZmFsc2UsInd0bVYiOnsidHlwZSI6IkRhcnF1YmUiLCJlbmFibGVkIjp0cnVlfSwidWMiOiJyZ2JhKDQ4LCAxMzEsIDEwOSwgMSkiLCJkYyI6InJnYmEoMjM3LCA1MCwgOTgsIDEpIiwic21iIjpbeyJuIjoiVGVzbGEgSW5jIiwidCI6IlRTTEEuVVMiLCJhYyI6IlNUT0NLUyJ9LHsibiI6IkFwcGxlIEluYyIsInQiOiJBQVBMLlVTIiwiYWMiOiJTVE9DS1MifSx7Im4iOiJCaXRjb2luIiwidCI6IkJUQ1VTRC5BR1IiLCJhYyI6IkNSWVBUTyJ9XSwiY2hyVCI6ImxpbmUiLCJzbCI6dHJ1ZX0sImV4cCI6MTY5MTEzNDM0OSwic3ViIjoiYWNjZXNzIn0.EG5sBcLtoOTUEDJ5FkrIgy6OekF5mK6jExAhyai-LAI"
+			id="ChartWidget-4ehbymd"></iframe>
+		<script> window.top.addEventListener("message", function (msg) { const widget = document.getElementById('ChartWidget-4ehbymd'); if (!widget) return; const styles = msg.data?.styles; if (styles) { Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key])) } }); </script>
+    </div> 
+
+	<!-- <iframe style="border: none; width:100%; height: 373px;" data-widget-name="" name="TickerTape" src="https://darqube.com/external-embedding/ticker-tape?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3aWRnZXQiOnsiYXNzZXRfY2xhc3NlcyI6WyJJTkRFWEVTIiwiU1RPQ0tTIiwiRk9SRVgiXX0sIndfdHlwZSI6IlRpY2tlclRhcGUiLCJmZV9jZmciOnsiY21vZGUiOjAsImZjbHIiOiJyZ2JhKDI1NSwgMjU1LCAyNTUsIDEpIiwiYmciOiJyZ2JhKDIxLCAyNSwgMzAsIDEpIiwiaCI6MzczLCJ3IjoxMTAwLCJhc3oiOnRydWUsImZ0IjoiZGVmYXVsdCIsImh0Ijoibm9uZSIsInRyaCI6W10sImNoYyI6InJnYmEoMjM3LCA1MCwgOTgsIDEpIiwiYmUiOmZhbHNlLCJiYyI6InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIsImJ3IjoxLCJjbiI6IiIsImxuZyI6ImVuIiwiY3RybHQiOjEsImhkaWNuIjpmYWxzZSwid3RtViI6eyJ0eXBlIjoiRGFycXViZSIsImVuYWJsZWQiOnRydWV9LCJ1YyI6InJnYmEoNDgsIDEzMSwgMTA5LCAxKSIsImRjIjoicmdiYSgyMzcsIDUwLCA5OCwgMSkiLCJjdHJsdiI6MSwic21iIjpbeyJuIjoiRVVSL1VTRCIsInQiOiJFVVJVU0QuT0FOREEifSx7Im4iOiJHQlAvVVNEIiwidCI6IkdCUFVTRC5PQU5EQSJ9LHsibiI6IkJUQyIsInQiOiJCVENVU0QuQUdSIn0seyJuIjoiRVRIIiwidCI6IkVUSFVTRC5BR1IifSx7Im4iOiJHb2xkIiwidCI6IlhBVVVTRC5PQU5EQSJ9LHsibiI6IlNpbHZlciIsInQiOiJYQUdVU0QuT0FOREEifSx7Im4iOiJBQVBMIiwidCI6IkFBUEwuVVMifSx7Im4iOiJUU0xBIiwidCI6IlRTTEEuVVMifSx7Im4iOiJNU0ZUIiwidCI6Ik1TRlQuVVMifSx7Im4iOiJBTVpOIiwidCI6IkFNWk4uVVMifSx7Im4iOiJVU0QvSlBZIiwidCI6IlVTREpQWS5PQU5EQSJ9XSwib3BuIjp0cnVlLCJjdGRjIjpmYWxzZX0sImV4cCI6MTY5MTU1NDkyMSwic3ViIjoiYWNjZXNzIn0.Yo_xUgtb_76erIC6HlAA-ipNKsl0pZc8iUwt_wTflck" id="TickerTape-ywmv8yk"></iframe>
+<script>
+  window.top.addEventListener("message", function(msg) {
+    const widget = document.getElementById('TickerTape-ywmv8yk');
+    
+    if (!widget) return;
+    
+    const styles = msg.data?.styles;
+    if (styles) {
+      Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+    }
+    
+    const height = msg.data?.tickerTapeHeight;
+    
+    if (height) {
+      widget.style.setProperty('height', height + 'px');
+    }
+  });
+</script> -->
+<!-- <iframe style="border: none; width:840px; height: 470px;" data-widget-name="" name="ChartWidget" src="https://darqube.com/external-embedding/chart-widget?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3aWRnZXQiOnsidGlja2VycyI6eyJTVE9DS1MiOlsiVFNMQS5VUyIsIkFBUEwuVVMiXSwiQ1JZUFRPIjpbIkJUQ1VTRC5BR1IiXX0sInNlbGxfYnV5X3VybCI6bnVsbH0sIndfdHlwZSI6IkNoYXJ0V2lkZ2V0IiwiZmVfY2ZnIjp7ImNoY2xyIjoicmdiYSg2MSwgMTg3LCAxNTQsIDEpIiwiY21vZGUiOjAsImZjbHIiOiJyZ2JhKDI1NSwgMjU1LCAyNTUsIDEpIiwiYmciOiJyZ2JhKDIxLCAyNSwgMzAsIDEpIiwiaCI6NDcwLCJ3Ijo4NDAsImFzeiI6ZmFsc2UsImZ0IjoiZGVmYXVsdCIsImh0Ijoibm9uZSIsInRyaCI6W10sImNoYyI6InJnYmEoMjM3LCA1MCwgOTgsIDEpIiwiYmUiOnRydWUsImJjIjoicmdiYSgyNTUsMjU1LDI1NSwwLjEpIiwiYnciOjEsImNuIjoiIiwibG5nIjoiZW4iLCJoZGljbiI6ZmFsc2UsInd0bVYiOnsidHlwZSI6IkRhcnF1YmUiLCJlbmFibGVkIjp0cnVlfSwidWMiOiJyZ2JhKDQ4LCAxMzEsIDEwOSwgMSkiLCJkYyI6InJnYmEoMjM3LCA1MCwgOTgsIDEpIiwic21iIjpbeyJuIjoiVGVzbGEgSW5jIiwidCI6IlRTTEEuVVMiLCJhYyI6IlNUT0NLUyJ9LHsibiI6IkFwcGxlIEluYyIsInQiOiJBQVBMLlVTIiwiYWMiOiJTVE9DS1MifSx7Im4iOiJCaXRjb2luIiwidCI6IkJUQ1VTRC5BR1IiLCJhYyI6IkNSWVBUTyJ9XSwiY2hyVCI6ImxpbmUiLCJzbCI6dHJ1ZX0sImV4cCI6MTY5MzExNzY4MCwic3ViIjoiYWNjZXNzIn0.BtK-t8O97UBPhSQKoR-fVQFlvbXTQlYkzDNS5sEZf3M" id="ChartWidget-cum1xux"></iframe>
+<script>
+  window.top.addEventListener("message", function(msg) {
+    const widget = document.getElementById('ChartWidget-cum1xux');
+    
+    if (!widget) return;
+    
+    const styles = msg.data?.styles;
+    if (styles) {
+      Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+    }
+  });
+</script> -->
+	</body>
